@@ -1,5 +1,7 @@
 export ZSHDIR="$HOME/.zsh"
 
+source "$ZSHDIR/_aliases"
+
 source "$ZSHDIR/asdf.zshrc"
 source "$ZSHDIR/curl.zshrc"
 source "$ZSHDIR/go.zshrc"
